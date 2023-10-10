@@ -55,16 +55,17 @@ print("Cosine similarity between 'alice' " +
 			"and 'machines' - Skip Gram : ",
 	model2.wv.similarity('alice', 'machines'))
 
-/*
+"""
   nltk.download('punkt')
   pip install nltk
   pip install gensim
-*/
+"""
 
-/* OUTPUT
+""" 
+OUTPUT :
 Cosine similarity between 'alice' and 'wonderland' - CBOW :  0.97678375
 Cosine similarity between 'alice' and 'machines' - CBOW :  0.83150136
 Cosine similarity between 'alice' and 'wonderland' - Skip Gram :  0.63327175
 Cosine similarity between 'alice' and 'machines' - Skip Gram :  0.77968794
-*/
+"""
 
